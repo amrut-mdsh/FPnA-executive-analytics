@@ -1,0 +1,97 @@
+{
+  "finance": {
+    "path": "Data/fpna_finance_fact.csv",
+    "fields": [
+      [
+        "MonthYear",
+        "month",
+        "TEXT"
+      ],
+      [
+        "FiscalYear",
+        "fiscal_year",
+        "INTEGER"
+      ],
+      [
+        "Department",
+        "department",
+        "TEXT"
+      ],
+      [
+        "Region",
+        "region",
+        "TEXT"
+      ],
+      [
+        "Account",
+        "account",
+        "TEXT"
+      ],
+      [
+        "AccountCategory",
+        "account_category",
+        "TEXT"
+      ],
+      [
+        "Scenario",
+        "scenario",
+        "TEXT"
+      ],
+      [
+        "Amount",
+        "amount",
+        "REAL"
+      ]
+    ]
+  },
+  "finance_summary": {
+    "path": "Data/fpna_dashboard_aligned.csv",
+    "fields": [
+      [
+        "MonthYear",
+        "month",
+        "TEXT"
+      ],
+      [
+        "Department",
+        "department",
+        "TEXT"
+      ],
+      [
+        "Revenue Actual",
+        "revenue_actual",
+        "REAL"
+      ],
+      [
+        "Revenue Budget",
+        "revenue_budget",
+        "REAL"
+      ],
+      [
+        "Revenue Variance",
+        "revenue_variance",
+        "REAL"
+      ],
+      [
+        "Revenue Variance %",
+        "revenue_variance_pct",
+        "REAL"
+      ],
+      [
+        "Opex (Positive)",
+        "opex",
+        "REAL"
+      ],
+      [
+        "Operating Income",
+        "operating_income",
+        "REAL"
+      ],
+      [
+        "Gross Margin %",
+        "gross_margin_pct",
+        "REAL"
+      ]
+    ]
+  }
+}
